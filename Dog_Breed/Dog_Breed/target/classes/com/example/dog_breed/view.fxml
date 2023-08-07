@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dog_breed.Controller" style="-fx-background-color: lightgreen;">
+   <AnchorPane layoutX="1.0" layoutY="-1.0" prefHeight="411.0" prefWidth="609.0">
+      <Button fx:id="SearchBreed" layoutX="391.0" layoutY="97.0" mnemonicParsing="false" onAction="#handleSearchBreed" text="Search" />
+      <Label layoutX="186.0" layoutY="29.0" prefHeight="40.0" prefWidth="206.0" text="Dog Breed Searcher">
+      </Label>
+      <TextField fx:id="TypeBreed" layoutX="173.0" layoutY="97.0" />
+      <Separator layoutX="183.0" layoutY="68.0" prefWidth="200.0" />
+       <FlowPane fx:id="ReturnData" layoutX="38.0" layoutY="180.0" prefHeight="200.0" prefWidth="505.0" />
+   </AnchorPane>
+</AnchorPane>
